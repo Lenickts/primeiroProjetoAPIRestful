@@ -15,8 +15,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import br.com.descomplica.projeto.Entidade.Categoria;
 import br.com.descomplica.projeto.Servico.CategoriaService; // Importa a classe CategoriaService
-@SuppressWarnings("null")
-
 
 @RestController
 @RequestMapping("/categoria")
