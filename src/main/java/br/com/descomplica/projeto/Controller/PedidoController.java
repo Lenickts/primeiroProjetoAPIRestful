@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import br.com.descomplica.projeto.Entidade.Pedido;
 import br.com.descomplica.projeto.Servico.PedidoService;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/pedido")

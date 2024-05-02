@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import br.com.descomplica.projeto.Entidade.Produto;
 import br.com.descomplica.projeto.Servico.ProdutoService;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 @RequestMapping("/produto")
